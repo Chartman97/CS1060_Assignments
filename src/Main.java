@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// This file gas a repository with GitHub
 public class Main {
     public static void main(String[] args) {
         final double kelvin, celsius, fahrenheit;
@@ -12,17 +13,15 @@ public class Main {
         System.out.print("Lets do some conversions! Input Value here -->");
         fahrenheit = in.nextDouble();
 
-        // OutPut Screen Filler
-        System.out.print(" \n \n \n \n");
-
         // Convert Fahrenheit to Celsius & Kelvin
         celsius = (double) ((( 5.0 / 9.0 ) * (fahrenheit - 32)));
         kelvin = (double) (celsius + 273.15);
 
+        // Output
         System.out.println("Boom");
         System.out.println( fahrenheit + " Degrees Fahrenheit is:");
         System.out.printf("Celsius = %.2f \nKelvin = %.2f\n", celsius, kelvin);
 
         System.out.print("");
     }
-    }
+}
