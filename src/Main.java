@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// This file gas a repository with GitHub
+// This file has a repository with GitHub
 public class Main {
     public static void main(String[] args) {
         final double kelvin, celsius, fahrenheit;
